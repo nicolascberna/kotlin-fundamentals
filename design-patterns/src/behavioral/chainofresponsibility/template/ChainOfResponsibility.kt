@@ -1,0 +1,3 @@
+package behavioral.chainofresponsibility.template
+
+class ChainOfResponsibility

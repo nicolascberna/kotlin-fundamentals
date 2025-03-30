@@ -1,0 +1,3 @@
+package specialized
+
+class HashTables

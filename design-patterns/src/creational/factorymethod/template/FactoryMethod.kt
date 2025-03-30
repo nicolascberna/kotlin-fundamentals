@@ -1,0 +1,3 @@
+package creational.factorymethod.template
+
+class FactoryMethod
