@@ -1,6 +1,6 @@
 package sorting.bubblesort
 
-fun bubbleSort(array: IntArray): IntArray {
+internal fun bubbleSort(array: IntArray): IntArray {
     val n = array.size
     for (i in 0..<n - 1) {
         for (j in 0..<n - i - 1) {
