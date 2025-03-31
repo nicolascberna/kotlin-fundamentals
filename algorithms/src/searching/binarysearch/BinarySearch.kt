@@ -1,0 +1,3 @@
+package searching.binarysearch
+
+class BinarySearch

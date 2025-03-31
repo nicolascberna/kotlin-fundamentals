@@ -1,0 +1,3 @@
+package searching.linearsearch
+
+class LinearSearch

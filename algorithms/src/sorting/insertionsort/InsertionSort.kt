@@ -1,0 +1,3 @@
+package sorting.insertionsort
+
+class InsertionSort
