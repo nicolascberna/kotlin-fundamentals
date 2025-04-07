@@ -1,5 +1,8 @@
 package sorting.bubblesort
 
+/**
+ * Time Complexity: O(n²)
+ */
 internal fun bubbleSort(array: IntArray): IntArray {
     val n = array.size
     for (i in 0..<n - 1) {
