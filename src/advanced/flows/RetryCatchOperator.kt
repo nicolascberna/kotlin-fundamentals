@@ -53,8 +53,8 @@ private fun example2() {
                 throw Exception("Error en el intento $attempt")
             }
             emit("Éxito en el intento $attempt")
-        }.catch { emit(null.toString()) }
-            .retry(RETRY_SUCCESS) { e ->
+        }.catch { emit(null.toString())
+        }.retry(RETRY_SUCCESS) { e ->
             println("Se produjo un error: ${e.message}, reintentando...")
             true
         }
