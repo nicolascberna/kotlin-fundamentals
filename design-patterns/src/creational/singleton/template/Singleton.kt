@@ -1,3 +1,3 @@
 package creational.singleton.template
 
-class Singleton
+object Singleton
