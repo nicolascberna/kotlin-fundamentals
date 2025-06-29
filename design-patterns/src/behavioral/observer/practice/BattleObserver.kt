@@ -42,9 +42,8 @@ class Fighter(
         println("$name fue atacado por $enemyName y perdió $damage de HP. Vida restante: $hp")
     }
 
-    private fun updateHp(damage: Int): Int {
-        val actualHp = (this.hp - damage)
-        return actualHp
+    private fun updateHp(damage: Int) {
+        this.hp -= damage
     }
 }
 
