@@ -1,3 +1,4 @@
 package behavioral.state.template
 
-class State
+class PlayerState {
+}
