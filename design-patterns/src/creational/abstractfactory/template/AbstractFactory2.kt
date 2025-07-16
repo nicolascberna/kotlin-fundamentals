@@ -1,7 +1,6 @@
 package creational.abstractfactory.template
 
 import utils.getOSName
-import java.util.*
 
 interface Button {
      fun paint()
