@@ -38,8 +38,8 @@ class Client(factory: VehicleFactory) {
 }
 
 fun main() {
-    val factory = FourWheelFactory()
-    val clientFactory = Client(factory)
-    val fourWheeler = clientFactory.getVehicle()
+    val fourWheelFactory = FourWheelFactory()
+    val client = Client(fourWheelFactory)
+    val fourWheeler = client.getVehicle()
     println(fourWheeler.printVehicle())
 }
